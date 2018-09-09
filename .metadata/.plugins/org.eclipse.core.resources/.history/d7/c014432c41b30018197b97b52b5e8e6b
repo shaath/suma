@@ -1,0 +1,6 @@
+package testNG;
+
+public class UserReg_TestNG extends TestNGMaster
+{
+
+}

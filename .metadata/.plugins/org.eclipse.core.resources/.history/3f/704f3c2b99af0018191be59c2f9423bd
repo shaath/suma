@@ -1,0 +1,18 @@
+package methods;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class OrgMaster 
+{
+	//Launch
+	
+	public String Org_Launch(String url)
+	{
+		WebDriver driver=new FirefoxDriver();
+		driver.get(url);
+		driver.manage().window().maximize();
+		
+	}
+
+}

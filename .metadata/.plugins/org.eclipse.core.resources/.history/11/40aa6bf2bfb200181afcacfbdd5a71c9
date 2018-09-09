@@ -1,0 +1,15 @@
+package testNG;
+
+import org.junit.BeforeClass;
+import org.openqa.selenium.WebDriver;
+
+public class PrimusBankLogin 
+{
+	public static WebDriver driver;
+	@BeforeClass
+	public void Launch_Br()
+	{
+		
+	}
+
+}

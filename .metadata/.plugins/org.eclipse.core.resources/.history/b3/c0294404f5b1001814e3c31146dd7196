@@ -1,0 +1,17 @@
+package datadriven;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ExcelOps {
+
+	public static void main(String[] args) throws FileNotFoundException 
+	{
+		String xlpath="F:\\Suma Recordings\\Workspace\\SeleniumProject\\src\\testdata\\TestData.xlsx";
+		FileInputStream fi=new FileInputStream(xlpath);
+		
+		
+
+	}
+
+}
